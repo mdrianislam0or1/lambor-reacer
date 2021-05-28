@@ -52,7 +52,7 @@ const Home = () => {
                 description=" Solar Roof Costs Less Than a New Roof Plus Solar Panels"
                 backgroundImg="Accessories.jpg"
                 leftBtnText="Order Now"
-                rightBtnText="Learn More"
+                
             />
         </Container>
     )
