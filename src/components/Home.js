@@ -19,8 +19,20 @@ const Home = () => {
                 leftBtnText="Custom order"
                 rightBtnText="Existing inventory"
             />
-            <Section/>
-            <Section/>
+            <Section
+                title="Model 3"
+                description="Order Online for Touch delivery"
+                backgroundImg="model-3.jpg"
+                leftBtnText="Custom order"
+                rightBtnText="Existing inventory"
+            />
+            <Section
+                title="Model X"
+                description="Order Online for Touch delivery"
+                backgroundImg="model-x.jpg"
+                leftBtnText="Custom order"
+                rightBtnText="Existing inventory"
+            />
         </Container>
     )
 }
