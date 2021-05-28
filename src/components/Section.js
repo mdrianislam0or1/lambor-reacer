@@ -1,22 +1,23 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Section = () => {
+const Section = ({title, description ,leftBtnText,rightBtnText}) => {
+    
     return (
         <Wrap>
             <ItemText>
-                <h1>Model S</h1>
-                <p>Order Online for Touch delivery</p>
+                <h1>{title}</h1>
+                <p>{description}</p>
             </ItemText>
 
         <Buttons>
             <ButtonGroup>
                 <LeftButton>
-                    Custom Order
+                    {leftBtnText}
                 </LeftButton>
 
                 <RightButton>
-                    Existing Inventory
+                    {rightBtnText}
                 </RightButton>
             </ButtonGroup>
 
@@ -52,6 +53,9 @@ const ItemText = styled.div`
 const ButtonGroup = styled.div`
     display: flex;
     margin-bottom: 30px;
+    @media (max-width: 768px){
+        flex-direction: column;
+    }
 `
 
 const LeftButton = styled.div`
