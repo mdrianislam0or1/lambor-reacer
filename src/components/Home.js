@@ -5,7 +5,9 @@ import Section from './Section'
 const Home = () => {
     return (
         <Container>
-            home
+            <Section/>
+            <Section/>
+            <Section/>
             <Section/>
         </Container>
     )
